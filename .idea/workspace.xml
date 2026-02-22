@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8082ebac-d41e-4904-9248-538a7a7f4d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GIT_STATUS_REPORT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUIDE_DIRECTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PUSH_NOW.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PUSH_SUCCESS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MISSING_COMMITS_SOLUTION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VERIFY_GITHUB.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMMIT_COMPLETE.md" beforeDir="false" afterPath="$PROJECT_DIR$/COMMIT_COMPLETE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/START_PUSH_NOW.md" beforeDir="false" afterPath="$PROJECT_DIR$/START_PUSH_NOW.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GIT_STATUS_REPORT.md" beforeDir="false" afterPath="$PROJECT_DIR$/GIT_STATUS_REPORT.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,25 +23,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "omar484-cloud"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;omar484-cloud&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:omar484-cloud/mcp-confluence.git",
-    "accountId": "927e0e27-9584-4f9b-9441-0467ecfaf04e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:omar484-cloud/mcp-confluence.git&quot;,
+    &quot;accountId&quot;: &quot;927e0e27-9584-4f9b-9441-0467ecfaf04e&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3A1PJwCm6YOWaYvFXaqwrD5EyDQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,17 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.chat.ChatConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.chat.ChatConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
