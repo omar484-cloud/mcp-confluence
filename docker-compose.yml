@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  mcp-confluence:
+    build: .
+    container_name: mcp-confluence-server
+
+    # Environment configuration
+    environment:
+      - CONFLUENCE_URL=${CONFLUENCE_URL:-https://your-domain.atlassian.net}
+      - CONFLUENCE_USERNAME=${CONFLUENCE_USERNAME:-your-email@example.com}
+      - CONFLUENCE_API_TOKEN=${CONFLUENCE_API_TOKEN:-your-api-token}
+      - CONFLUENCE_DEPLOYMENT=${CONFLUENCE_DEPLOYMENT:-cloud}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - REQUEST_TIMEOUT=${REQUEST_TIMEOUT:-30}
+      - MAX_RETRIES=${MAX_RETRIES:-3}
+
+    # Port mapping (optional, for direct testing)
+    # ports:
+    #   - "8000:8000"
+
+    # Resource limits
+    resources:
+      limits:
+        cpus: '1'
+        memory: 512M
+      reservations:
+        cpus: '0.5'
+        memory: 256M
+
+    # Restart policy
+    restart: unless-stopped
+
+    # Logging
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+    # Security
+    security_opt:
+      - no-new-privileges:true
+    read_only_root_filesystem: true
+    tmpfs:
+      - /tmp
+
+  # Optional: Add monitoring with Prometheus
+  # prometheus:
+  #   image: prom/prometheus:latest
+  #   container_name: prometheus
+  #   volumes:
+  #     - ./prometheus.yml:/etc/prometheus/prometheus.yml
+  #   ports:
+  #     - "9090:9090"
+  #   command:
+  #     - '--config.file=/etc/prometheus/prometheus.yml'
+
