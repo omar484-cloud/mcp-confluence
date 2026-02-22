@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8082ebac-d41e-4904-9248-538a7a7f4d0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GIT_STATUS_REPORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIDE_DIRECTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PUSH_NOW.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PUSH_SUCCESS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GIT_AMENDMENT.md" beforeDir="false" afterPath="$PROJECT_DIR$/GIT_AMENDMENT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GIT_COMMIT.md" beforeDir="false" afterPath="$PROJECT_DIR$/GIT_COMMIT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GIT_COMPLETE_GUIDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/GIT_COMPLETE_GUIDE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMMIT_COMPLETE.md" beforeDir="false" afterPath="$PROJECT_DIR$/COMMIT_COMPLETE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/START_PUSH_NOW.md" beforeDir="false" afterPath="$PROJECT_DIR$/START_PUSH_NOW.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
